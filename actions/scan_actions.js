@@ -26,7 +26,6 @@ export const fetchBarCodes = () => async (dispatch) => {
   const requestUrl = baseUrl + 's';
   try {
     const { data } = await axios.get(requestUrl);
-    console.log(data)
     if (data.errorMessage) {
       dispatch({ type: ERROR_FETCH, payload: data })
     } else {
