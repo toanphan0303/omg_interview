@@ -1,7 +1,7 @@
 # Scan Feature
 
-Front-end: React-Native, Redux, expo
-Back-end: AWS-lambda, AWS-dynamoDB, AWS-APIGateway
+* Front-end: React-Native, Redux, expo
+* Back-end: AWS-lambda, AWS-dynamoDB, AWS-APIGateway
 
 ### Prerequisites
 
@@ -31,28 +31,28 @@ URL: https://youtu.be/F5xSS3q036Y
 ## RESTful URLs
 
 . List of upc:
-    *GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upcs
-    *Response:
-      *{"upc":
-        *[
-          *{"upc":"6A14470A","product_name":"Lacroix Tangerine"},
-          *{"upc":"24463061163","product_name":"ABC Sparkling water"},
-          *{"upc":"6A14470D","product_name":"Luke's cheddar chips"}
-        *]
-      *}
+    * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upcs
+    * Response:
+      * {"upc":
+        * [
+          * {"upc":"6A14470A","product_name":"Lacroix Tangerine"},
+          * {"upc":"24463061163","product_name":"ABC Sparkling water"},
+          * {"upc":"6A14470D","product_name":"Luke's cheddar chips"}
+        * ]
+      * }
 
-*. Retrieve single upc:
-    *GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc?upc=:upc
-    *Example:
-    *GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc?upc=6A14470D
-    *Response:
-      *{"upc":
-        *[
-          *{"upc":"6A14470D","product_name":"Luke's cheddar chips"}
-        *]
-      *}
+* . Retrieve single upc:
+    * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc?upc=:upc
+    * Example:
+    * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc?upc=6A14470D
+    * Response:
+      * {"upc":
+        * [
+          * {"upc":"6A14470D","product_name":"Luke's cheddar chips"}
+        * ]
+      * }
 
-*. Create single upc:
+* . Create single upc:
     *POST https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc
     *body : {
       *"upc": "4033",
