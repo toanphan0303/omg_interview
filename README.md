@@ -25,6 +25,14 @@
 
 * This app is deploy on expo
 * URL: https://exp.host/@nein0303/omginterview
+```
+  Expo has made some changes on IOS, so please use Android to test this app.
+  1 Download Expo app
+  2 Goto https://exp.host/@nein0303/omginterview
+  3. Scan QR Code to open the app
+  4. Test the app
+```
+
 
 ## Demo Video
 URL: https://youtu.be/F5xSS3q036Y
@@ -59,7 +67,7 @@ URL: https://youtu.be/F5xSS3q036Y
     ```
     body : {
       "upc": "4033",
-      "product": "Banany"
+      "product": "Banana"
     }
     ```
     * Response:
