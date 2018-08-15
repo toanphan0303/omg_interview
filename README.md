@@ -33,6 +33,7 @@ URL: https://youtu.be/F5xSS3q036Y
 * . List of upc:
     * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upcs
     * Response:
+    ```
        {"upc":
          [
            {"upc":"6A14470A","product_name":"Lacroix Tangerine"},
@@ -40,7 +41,7 @@ URL: https://youtu.be/F5xSS3q036Y
            {"upc":"6A14470D","product_name":"Luke's cheddar chips"}
          ]
        }
-
+    ```
 * . Retrieve single upc:
     * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc?upc=:upc
     * Example:
