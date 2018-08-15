@@ -30,7 +30,7 @@ List of dependencies:
 URL: https://youtu.be/F5xSS3q036Y
 ## RESTful URLs
 
-. List of upc:
+*. List of upc:
     * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upcs
     * Response:
       * {"upc":
@@ -53,15 +53,15 @@ URL: https://youtu.be/F5xSS3q036Y
       * }
 
 * . Create single upc:
-    *POST https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc
-    *body : {
-      *"upc": "4033",
-      *"product": "Banany"
-    *}
-    *Response:
-      *{
-        *"data": "successful create upc code"
-      *}
+    * POST https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc
+    * body : {
+      * "upc": "4033",
+      * "product": "Banany"
+    * }
+    * Response:
+      * {
+        * "data": "successful create upc code"
+      * }
 
 ## Authors
 
