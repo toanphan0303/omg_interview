@@ -23,14 +23,14 @@ List of dependencies:
 
 ## Deployment
 
-*This app is deploy on expo
-*URL: https://exp.host/@nein0303/omginterview
+* This app is deploy on expo
+* URL: https://exp.host/@nein0303/omginterview
 
 ## Demo Video
 URL: https://youtu.be/F5xSS3q036Y
 ## RESTful URLs
 
-*. List of upc:
+* . List of upc:
     * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upcs
     * Response:
       * {"upc":
