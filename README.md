@@ -5,8 +5,8 @@
 
 ### Prerequisites
 
-run 'npm install' to install all dependencies
-List of dependencies:
+* run 'npm install' to install all dependencies
+* List of dependencies:
 *  "axios": "^0.18.0",
 *  "eslint-config-rallycoding": "^3.2.0",
 *  "expo": "^29.0.0",
@@ -33,13 +33,13 @@ URL: https://youtu.be/F5xSS3q036Y
 * . List of upc:
     * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upcs
     * Response:
-      * {"upc":
-        * [
-          * {"upc":"6A14470A","product_name":"Lacroix Tangerine"},
-          * {"upc":"24463061163","product_name":"ABC Sparkling water"},
-          * {"upc":"6A14470D","product_name":"Luke's cheddar chips"}
-        * ]
-      * }
+       {"upc":
+         [
+           {"upc":"6A14470A","product_name":"Lacroix Tangerine"},
+           {"upc":"24463061163","product_name":"ABC Sparkling water"},
+           {"upc":"6A14470D","product_name":"Luke's cheddar chips"}
+         ]
+       }
 
 * . Retrieve single upc:
     * GET https://l422o3r0o5.execute-api.us-east-1.amazonaws.com/prod/upc?upc=:upc
